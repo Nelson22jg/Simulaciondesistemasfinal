@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulación de Tráfico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulación de Tráfico</h1>
+        <div class="controls">
+            <label for="start-time">Fecha y hora de inicio de simulación:</label>
+            <input type="datetime-local" id="start-time">
+            <label for="end-time">Fecha y hora de fin de simulación:</label>
+            <input type="datetime-local" id="end-time">
+            <button id="start-simulation">Iniciar Simulación</button>
+        </div>
+        <div class="simulation-output">
+            <h2>Resultados de la Simulación</h2>
+            <div id="results">
+                <!-- Resultados serán mostrados aquí -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
